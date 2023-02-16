@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+registroEmpleado();
+        }
+    public static void registroEmpleado(){
+        Clase01 clase01 = new Clase01();
+        clase01.registrarEmpleado();
     }
 }
